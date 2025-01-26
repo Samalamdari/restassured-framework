@@ -1,0 +1,24 @@
+# Configuration settings for system behavior
+timeouts=
+
+# Select between DEV, QA, PROD
+environment=
+
+# Token settings for session expiration
+token.expiration.minutes=
+
+# Test suite configuration: Select the appropriate test suite for execution
+test.suite=
+
+# User credentials for system access
+supervisor.username=
+supervisor.password=
+
+generalUser.username=
+generalUser.password=
+
+# Email domain configuration for generating random email addresses
+email.domain=
+
+# Execute all test cases
+test.execute=
