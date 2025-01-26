@@ -21,7 +21,7 @@ public class BaseTest {
 
         System.out.println("Environment: " + currentEnv);
         System.out.println("Base URL is: " + RestAssured.baseURI);
-        System.out.println("Timeouts set to: " + timeouts + "ms");
+        System.out.println("Timeouts set to: " + timeouts + " ms");
     }
 
     @AfterEach
