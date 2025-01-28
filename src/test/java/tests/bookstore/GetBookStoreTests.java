@@ -29,14 +29,6 @@ public class GetBookStoreTests extends BaseTest {
         assertEquals(200, response.statusCode(), "Request failed.");
         assertEquals(response.jsonPath().getString("isbn"), isbn, "Request failed.");
         assertNotNull(response.jsonPath().getString("isbn"),"ISBN is null.");
-    }
-//
-//    @Test
-//    public void testPostAllBooks() {
-//        Response response = BookStoreAPI.postAllBooks();
-//        System.out.println("RESPONSE: " + response.asPrettyString());
-//        assertEquals(200, response.statusCode(), "Request failed.");
-//
-//    }
 
+    }
 }

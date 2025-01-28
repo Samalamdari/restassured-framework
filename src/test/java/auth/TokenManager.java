@@ -42,4 +42,5 @@ public class TokenManager {
         superVisorTokenGeneratedAt = null;
         generalUserTokenGeneratedAt = null;
     }
+
 }
