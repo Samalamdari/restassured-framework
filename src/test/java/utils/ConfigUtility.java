@@ -20,5 +20,4 @@ public class ConfigUtility {
         return ConfigLoader.getIntProperty("timeouts");
     }
 
-
 }

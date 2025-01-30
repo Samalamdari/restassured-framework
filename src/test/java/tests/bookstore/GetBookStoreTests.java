@@ -31,4 +31,5 @@ public class GetBookStoreTests extends BaseTest {
         assertNotNull(response.jsonPath().getString("isbn"),"ISBN is null.");
 
     }
+
 }
